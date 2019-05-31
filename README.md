@@ -40,3 +40,21 @@
 
   删除远程仓库分支(推送空分支) git push origin :zylxxb_develop
 ~~~
+
+### 解决本地仓库push远程仓库每次都要重复输入密码的问题
+
+>  方法一： 执行一命令 git config --global credential.helper store后，下次输入账号密码会默认记住
+
+>  方法二： 设置git本地仓库的用户名和密码、油箱与远程仓库(github)一致
+
+~~~
+   // 设置
+   git config --global user.name "xxx"
+
+   git config --global user.email "xxx"
+
+   git config --global user.password "xxx"
+
+   // 查看
+   git config user.name/email/password
+~~~
