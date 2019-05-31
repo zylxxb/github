@@ -26,7 +26,7 @@
 
 ### 远程仓库分支管理
 ~~~
-> 查看分支                   git branch
+  查看分支                   git branch
 
   创建分支                   git checkout zylxxb_develop
 
@@ -35,6 +35,6 @@
   切换分支                   git checkout master/zylxxb_develop
 
   删除分支                   git branch -d zylxxb_develop
-  
+
   合并分支(master分支合并)    git merge zylxxb_develop
 ~~~
