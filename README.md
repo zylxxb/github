@@ -37,4 +37,6 @@
   删除分支                   git branch -d zylxxb_develop
 
   合并分支(master分支合并)    git merge zylxxb_develop
+
+  删除远程仓库分支(推送空分支) git push origin :zylxxb_develop
 ~~~
