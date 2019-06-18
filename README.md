@@ -18,7 +18,9 @@
 ### 远程仓库管理
 ~~~
   克隆远程仓库             git clone https://github.com/zylxxb/github.git
-
+  
+  克隆远程仓库项目分支      git clone -b zylxxb_develop https://github.com/zylxxb/github.git
+  
   添加文件                 git add .   git commit -m " "
 
   推送到远程仓库           git push origin master
