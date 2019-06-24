@@ -60,3 +60,9 @@
    // 查看
    git config user.name/email/password
 ~~~
+
+### 解决本地仓库github下载的项目文件配置问题
+~~~
+   node-modules安装：    npm install
+   sass编译模块：        npm install node-sass@lates
+~~~
