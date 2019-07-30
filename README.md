@@ -23,7 +23,7 @@
   
   添加文件                 git add .   git commit -m " "
 
-  推送到远程仓库           git push origin master
+  推送到远程仓库           git push -u origin master
 ~~~
 
 ### 远程仓库分支管理
